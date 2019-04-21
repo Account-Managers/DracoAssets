@@ -1,0 +1,18 @@
+{
+  "key.system.application.name": "Draconius GO: Catch a Dragon!",
+  "key.button.ok": "OK",
+  "key.button.cancel.pure": "PREKLIČI",
+  "key.button.quit": "ZAPRI",
+  "key.beCarefulMessage.text": "Bodite previdni med igranjem. Glejte okoli.",
+  "key.settings.language": "Slovenščina",
+  "key.error.no_connection": "Vzpostavljanje povezave s strežnikom ni uspelo. Poskusite pozneje.",
+  "key.error.protocol_version_mismatch": "Različica igre je zastarela. Potrebuje se posodobitev.",
+  "key.error.update_application": "Različica igre je zastarela. Potrebuje se posodobitev.",
+  "key.ServiceException.Cause.RESPONSE_CODE": "Napaka {0}\n{1}",
+  "key.ServiceException.Cause.TRY_AGAIN_LATER": "Treba je počakati",
+  "key.ServiceException.Cause.NO_CONNECTION": "Ni internetne povezave",
+  "key.ServiceException.Cause.SERVER_DOWN": "Strežnik je začasno nedosegljiv. Prosim, ponovno poskusi kasneje.",
+  "key.ServiceException.Cause.SERVER_MAINTENANCE": "Trenutno se vršijo vzdrževalna dela na strežniku. Prosim, poskusi kasneje..",
+  "key.ServiceException.Cause.PROTOCOL_MISMATCH": "Ta verzija igre je zastarela. Potrebna je posodobitev.",
+  "key.modal.doYouWantToCloseApp": "Želite zapreti aplikacijo?"
+}

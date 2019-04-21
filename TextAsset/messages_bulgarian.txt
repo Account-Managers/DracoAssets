@@ -1,0 +1,18 @@
+{
+  "key.system.application.name": "Draconius GO: Catch a Dragon!",
+  "key.button.ok": "OK",
+  "key.button.cancel.pure": "ОТКАЗ",
+  "key.button.quit": "ИЗЛЕЗ",
+  "key.beCarefulMessage.text": "Бъдете внимателни, когато играете! Оглеждайте се!",
+  "key.settings.language": "Български",
+  "key.error.no_connection": "Не може да се свърже с сървъра. Опитайте по-късно.",
+  "key.error.protocol_version_mismatch": "Тази версия на играта е остаряла. Необходимо е обновяване.",
+  "key.error.update_application": "Тази версия на играта е остаряла. Необходимо е обновяване.",
+  "key.ServiceException.Cause.RESPONSE_CODE": "Грешка {0}\n{1}",
+  "key.ServiceException.Cause.TRY_AGAIN_LATER": "Съврърът не отговаря. Опитайте по-късно",
+  "key.ServiceException.Cause.NO_CONNECTION": "Няма връзка с интернет",
+  "key.ServiceException.Cause.SERVER_DOWN": "Сървърът на играта е временно недостъпен. Моля, опитайте по-късно.",
+  "key.ServiceException.Cause.SERVER_MAINTENANCE": "Сървърът на играта е спрят поради технически работи. Моля, опитайте по-късно.",
+  "key.ServiceException.Cause.PROTOCOL_MISMATCH": "Тази версия на играта е устаряла. Трябва да обновене я.",
+  "key.modal.doYouWantToCloseApp": "Искате ли да затворите приложението?"
+}

@@ -1,0 +1,18 @@
+{
+  "key.system.application.name": "Draconius GO: Catch a Dragon!",
+  "key.button.ok": "OK",
+  "key.button.cancel.pure": "ZRUŠIT",
+  "key.button.quit": "OPUSTIT",
+  "key.beCarefulMessage.text": "Buďte opatrní při hraní. Dívejte se kolem sebe.",
+  "key.settings.language": "Čeština",
+  "key.error.no_connection": "Nepodařilo se připojit k serveru. Zkuste později.",
+  "key.error.protocol_version_mismatch": "Verze hry je zastaralá. Je nutná aktualizace.",
+  "key.error.update_application": "Verze hry je zastaralá. Je nutná aktualizace.",
+  "key.ServiceException.Cause.RESPONSE_CODE": "Chyba {0}\n{1}",
+  "key.ServiceException.Cause.TRY_AGAIN_LATER": "Server neodpovídá. Zkuste to znovu později.",
+  "key.ServiceException.Cause.NO_CONNECTION": "Připojení k internetu není k dispozici",
+  "key.ServiceException.Cause.SERVER_DOWN": "Herní server je dočasně nedostupný. Zkuste to prosím později.",
+  "key.ServiceException.Cause.SERVER_MAINTENANCE": "Právě probíhá technická údržba serveru. Zkuste to prosím později.",
+  "key.ServiceException.Cause.PROTOCOL_MISMATCH": "Verze hry je zastaralá. Je nutná aktualizace.",
+  "key.modal.doYouWantToCloseApp": "Opravdu chcete zavřít aplikaci?"
+}

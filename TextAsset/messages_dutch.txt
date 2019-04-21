@@ -1,0 +1,18 @@
+{
+  "key.system.application.name": "Draconius GO: Catch a Dragon!",
+  "key.button.ok": "OK",
+  "key.button.cancel.pure": "ANNULEREN",
+  "key.button.quit": "AFSLUITEN",
+  "key.beCarefulMessage.text": "Vergeet niet om te allen tijde alert te zijn. Blijf op de hoogte van jouw omgeving.",
+  "key.settings.language": "Nederlands",
+  "key.error.no_connection": "Verbinding met de server is mislukt. Probeer het later nogmaals.",
+  "key.error.protocol_version_mismatch": "Versie van het spel is verouderd. Update is vereist.",
+  "key.error.update_application": "Versie van het spel is verouderd. Update is vereist.",
+  "key.ServiceException.Cause.RESPONSE_CODE": "Fout {0}\n{1}",
+  "key.ServiceException.Cause.TRY_AGAIN_LATER": "Wacht alsjeblieft",
+  "key.ServiceException.Cause.NO_CONNECTION": "Geen internetverbinding",
+  "key.ServiceException.Cause.SERVER_DOWN": "Spelserver is tijdelijk niet beschikbaar. Probeer later opnieuw aub.",
+  "key.ServiceException.Cause.SERVER_MAINTENANCE": "Spelserver is gesloten voor onderhoud. Probeer later opnieuw aub.",
+  "key.ServiceException.Cause.PROTOCOL_MISMATCH": "Wanverhouding van protocol. Update is vereist.",
+  "key.modal.doYouWantToCloseApp": "Wil je de toepassing sluiten?"
+}

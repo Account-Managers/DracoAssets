@@ -1,0 +1,18 @@
+{
+  "key.system.application.name": "Draconius GO: Catch a Dragon!",
+  "key.button.ok": "OK",
+  "key.button.cancel.pure": "CANCELAR",
+  "key.button.quit": "SALIR",
+  "key.beCarefulMessage.text": "Ten cuidado mientras juegas. Mira a tu alrededor.",
+  "key.settings.language": "Español",
+  "key.error.no_connection": "Imposible conectarse al servidor. Vuelve a intentarlo más tarde.",
+  "key.error.protocol_version_mismatch": "La versión del juego es obsoleta. Tienes que actualizarla.",
+  "key.error.update_application": "La versión del juego es obsoleta. Tienes que actualizarla.",
+  "key.ServiceException.Cause.RESPONSE_CODE": "Error {0}\n{1}",
+  "key.ServiceException.Cause.TRY_AGAIN_LATER": "El servidor no responde. Vuelve a intentarlo más tarde.",
+  "key.ServiceException.Cause.NO_CONNECTION": "No hay conexión a Internet",
+  "key.ServiceException.Cause.SERVER_DOWN": "El servidor está temporalmente fuera de servicio. Intêntalo más tarde, por favor.",
+  "key.ServiceException.Cause.SERVER_MAINTENANCE": "El servidor está fuera de servicio por mantenimiento. Intêntalo más tarde, por favor.",
+  "key.ServiceException.Cause.PROTOCOL_MISMATCH": "Protocolo equivocado. Actualiza la página.",
+  "key.modal.doYouWantToCloseApp": "¿Quieres cerrar la aplicación?"
+}

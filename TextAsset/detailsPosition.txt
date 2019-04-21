@@ -1,0 +1,1386 @@
+{
+    "MONSTER_EARTH_25": {
+        "pos": {
+            "x": 0,
+            "y": -0.95,
+            "z": 3.81
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_25": {
+        "pos": {
+            "x": 0,
+            "y": -0.64,
+            "z": 1.97
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_24": {
+        "pos": {
+            "x": 0,
+            "y": -0.6,
+            "z": 1.9
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_22": {
+        "pos": {
+            "x": 0,
+            "y": -0.59,
+            "z": 2.3
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_22": {
+        "pos": {
+            "x": 0,
+            "y": -0.68,
+            "z": 2.48
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_24": {
+        "pos": {
+            "x": 0,
+            "y": -0.55,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_19": {
+        "pos": {
+            "x": 0,
+            "y": -0.54,
+            "z": 1.56
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_22": {
+        "pos": {
+            "x": 0,
+            "y": -0.47,
+            "z": 1.75
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_23": {
+        "pos": {
+            "x": 0,
+            "y": -0.73,
+            "z": 2.06
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_17": {
+        "pos": {
+            "x": 0,
+            "y": -0.39,
+            "z": 1.44
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_11": {
+        "pos": {
+            "x": 0,
+            "y": -0.61,
+            "z": 1.59
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_23": {
+        "pos": {
+            "x": 0,
+            "y": -0.4,
+            "z": 1.75
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_20": {
+        "pos": {
+            "x": 0,
+            "y": -0.58,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_22": {
+        "pos": {
+            "x": 0,
+            "y": -0.47,
+            "z": 1.28
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_21": {
+        "pos": {
+            "x": 0,
+            "y": -0.73,
+            "z": 2.06
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_10": {
+        "pos": {
+            "x": 0,
+            "y": -0.59,
+            "z": 2.25
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_19": {
+        "pos": {
+            "x": 0,
+            "y": -0.78,
+            "z": 1.75
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_20": {
+        "pos": {
+            "x": 0,
+            "y": -0.65,
+            "z": 2.51
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_18": {
+        "pos": {
+            "x": 0,
+            "y": -0.91,
+            "z": 2.79
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_19": {
+        "pos": {
+            "x": 0,
+            "y": -0.49,
+            "z": 1.73
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_13": {
+        "pos": {
+            "x": 0,
+            "y": -0.36,
+            "z": 1.35
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_13": {
+        "pos": {
+            "x": 0,
+            "y": -0.36,
+            "z": 1.84
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_6": {
+        "pos": {
+            "x": 0,
+            "y": -1.01,
+            "z": 2.43
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_17": {
+        "pos": {
+            "x": 0,
+            "y": -0.66,
+            "z": 2.4
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_8": {
+        "pos": {
+            "x": 0,
+            "y": -0.34,
+            "z": 1.3
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_14": {
+        "pos": {
+            "x": 0,
+            "y": -0.42,
+            "z": 1.49
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_12": {
+        "pos": {
+            "x": 0,
+            "y": -0.37,
+            "z": 1.7
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_15": {
+        "pos": {
+            "x": 0,
+            "y": -0.57,
+            "z": 1.81
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_6": {
+        "pos": {
+            "x": 0,
+            "y": -0.38,
+            "z": 1.3
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_17": {
+        "pos": {
+            "x": 0,
+            "y": -0.68,
+            "z": 1.84
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_14": {
+        "pos": {
+            "x": 0,
+            "y": -0.54,
+            "z": 1.08
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_11": {
+        "pos": {
+            "x": 0,
+            "y": -0.77,
+            "z": 2.45
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_10": {
+        "pos": {
+            "x": 0,
+            "y": -0.52,
+            "z": 1.82
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_13": {
+        "pos": {
+            "x": 0,
+            "y": -0.57,
+            "z": 2.12
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_10": {
+        "pos": {
+            "x": 0,
+            "y": -0.58,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_9": {
+        "pos": {
+            "x": 0,
+            "y": -0.41,
+            "z": 1.51
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_13": {
+        "pos": {
+            "x": 0,
+            "y": -0.55,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_12": {
+        "pos": {
+            "x": 0,
+            "y": -0.47,
+            "z": 1.75
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.37,
+            "z": 1.18
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.37,
+            "z": 1.61
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_5": {
+        "pos": {
+            "x": 0,
+            "y": -0.6,
+            "z": 1.7
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.33,
+            "z": 1.35
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_7": {
+        "pos": {
+            "x": 0,
+            "y": -0.58,
+            "z": 1.6
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_9": {
+        "pos": {
+            "x": 0,
+            "y": -0.43,
+            "z": 1.8
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.64,
+            "z": 2.1
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.36,
+            "z": 1.25
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_7": {
+        "pos": {
+            "x": 0,
+            "y": -0.54,
+            "z": 1.91
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_7": {
+        "pos": {
+            "x": 0,
+            "y": -0.976,
+            "z": 1.8
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.492,
+            "z": 1.802
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.47,
+            "z": 1.77
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.64,
+            "z": 2.17
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.38,
+            "z": 1.49
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.25,
+            "z": 1.09
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_5": {
+        "pos": {
+            "x": 0,
+            "y": -0.52,
+            "z": 1.86
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_11": {
+        "pos": {
+            "x": 0,
+            "y": -0.51,
+            "z": 1.89
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_16": {
+        "pos": {
+            "x": 0,
+            "y": -0.4,
+            "z": 1.59
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_14": {
+        "pos": {
+            "x": 0,
+            "y": -0.35,
+            "z": 1.43
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_12": {
+        "pos": {
+            "x": 0,
+            "y": -0.8,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_8": {
+        "pos": {
+            "x": 0,
+            "y": -0.4,
+            "z": 1.49
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_11": {
+        "pos": {
+            "x": 0,
+            "y": -0.38,
+            "z": 1.37
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_14": {
+        "pos": {
+            "x": 0,
+            "y": -0.39,
+            "z": 1.46
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_8": {
+        "pos": {
+            "x": 0,
+            "y": -0.39,
+            "z": 1.47
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_5": {
+        "pos": {
+            "x": 0,
+            "y": -0.3,
+            "z": 1.19
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_5": {
+        "pos": {
+            "x": 0,
+            "y": -0.44,
+            "z": 1.87
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.42,
+            "z": 1.51
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_12": {
+        "pos": {
+            "x": 0,
+            "y": -0.26,
+            "z": 1.08
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_25": {
+        "pos": {
+            "x": 0,
+            "y": -1.49,
+            "z": 3.39
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_24": {
+        "pos": {
+            "x": 0,
+            "y": -0.7,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_23": {
+        "pos": {
+            "x": 0,
+            "y": -0.6,
+            "z": 2.5
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_24": {
+        "pos": {
+            "x": 0,
+            "y": -0.46,
+            "z": 1.8
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_25": {
+        "pos": {
+            "x": 0,
+            "y": -1.514,
+            "z": 3.35
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_24": {
+        "pos": {
+            "x": 0,
+            "y": -0.57,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_21": {
+        "pos": {
+            "x": 0,
+            "y": -0.55,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_20": {
+        "pos": {
+            "x": 0,
+            "y": -0.55,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_21": {
+        "pos": {
+            "x": 0,
+            "y": -0.47,
+            "z": 1.82
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_25": {
+        "pos": {
+            "x": 0,
+            "y": -0.97,
+            "z": 3.26
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_23": {
+        "pos": {
+            "x": 0,
+            "y": -0.59,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_23": {
+        "pos": {
+            "x": 0,
+            "y": -1.12,
+            "z": 2.6
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_17": {
+        "pos": {
+            "x": 0,
+            "y": -0.7,
+            "z": 1.84
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_9": {
+        "pos": {
+            "x": 0,
+            "y": -0.89,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_20": {
+        "pos": {
+            "x": 0,
+            "y": -0.46,
+            "z": 1.87
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_11": {
+        "pos": {
+            "x": 0,
+            "y": -0.45,
+            "z": 1.45
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_17": {
+        "pos": {
+            "x": 0,
+            "y": -0.43,
+            "z": 1.65
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_15": {
+        "pos": {
+            "x": 0,
+            "y": -0.39,
+            "z": 1.37
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_19": {
+        "pos": {
+            "x": 0,
+            "y": -0.374,
+            "z": 1.48
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_18": {
+        "pos": {
+            "x": 0,
+            "y": -0.63,
+            "z": 2.4
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_21": {
+        "pos": {
+            "x": 0,
+            "y": -0.73,
+            "z": 2.59
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_6": {
+        "pos": {
+            "x": 0,
+            "y": -0.39,
+            "z": 1.48
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_15": {
+        "pos": {
+            "x": 0,
+            "y": -0.61,
+            "z": 2.15
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_21": {
+        "pos": {
+            "x": 0,
+            "y": -0.43,
+            "z": 1.62
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_16": {
+        "pos": {
+            "x": 0,
+            "y": -0.66,
+            "z": 2.5
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_22": {
+        "pos": {
+            "x": 0,
+            "y": -0.6,
+            "z": 2.21
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_18": {
+        "pos": {
+            "x": 0,
+            "y": -0.51,
+            "z": 1.68
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_18": {
+        "pos": {
+            "x": 0,
+            "y": -0.44,
+            "z": 1.6
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_12": {
+        "pos": {
+            "x": 0,
+            "y": -0.43,
+            "z": 1.54
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_20": {
+        "pos": {
+            "x": 0,
+            "y": -0.53,
+            "z": 2.01
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_15": {
+        "pos": {
+            "x": 0,
+            "y": -0.55,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_16": {
+        "pos": {
+            "x": 0,
+            "y": -0.96,
+            "z": 2.37
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_16": {
+        "pos": {
+            "x": 0,
+            "y": -0.49,
+            "z": 1.83
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_14": {
+        "pos": {
+            "x": 0,
+            "y": -0.49,
+            "z": 1.92
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.49,
+            "z": 1.6
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_15": {
+        "pos": {
+            "x": 0,
+            "y": -0.7,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.45,
+            "z": 1.72
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.36,
+            "z": 1.16
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.38,
+            "z": 1.55
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_8": {
+        "pos": {
+            "x": 0,
+            "y": -0.71,
+            "z": 2.01
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_8": {
+        "pos": {
+            "x": 0,
+            "y": -0.58,
+            "z": 1.56
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.47,
+            "z": 1.74
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_10": {
+        "pos": {
+            "x": 0,
+            "y": -0.32,
+            "z": 1.28
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_9": {
+        "pos": {
+            "x": 0,
+            "y": -0.37,
+            "z": 1.28
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_7": {
+        "pos": {
+            "x": 0,
+            "y": -0.82,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_10": {
+        "pos": {
+            "x": 0,
+            "y": -0.5,
+            "z": 1.85
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.45,
+            "z": 1.78
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_6": {
+        "pos": {
+            "x": 0,
+            "y": -0.27,
+            "z": 1.49
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_6": {
+        "pos": {
+            "x": 0,
+            "y": -0.37,
+            "z": 1.35
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_7": {
+        "pos": {
+            "x": 0,
+            "y": -0.55,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_9": {
+        "pos": {
+            "x": 0,
+            "y": -0.45,
+            "z": 1.64
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_5": {
+        "pos": {
+            "x": 0,
+            "y": -0.82,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.59,
+            "z": 2.12
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.41,
+            "z": 1.56
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.8,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_18": {
+        "pos": {
+            "x": 0,
+            "y": -0.62,
+            "z": 1.75
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_19": {
+        "pos": {
+            "x": 0,
+            "y": -0.55,
+            "z": 2.16
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_13": {
+        "pos": {
+            "x": 0,
+            "y": -0.46,
+            "z": 1.72
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_16": {
+        "pos": {
+            "x": 0,
+            "y": -0.3,
+            "z": 1.22
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_XMAS_6": {
+        "pos": {
+            "x": 0,
+            "y": -0.6,
+            "z": 1.93
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_XMAS_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.407,
+            "z": 1.723
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_XMAS_5": {
+        "pos": {
+            "x": 0,
+            "y": -0.76,
+            "z": 2.965
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_XMAS_5": {
+        "pos": {
+            "x": 0,
+            "y": -0.95,
+            "z": 2.09
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_XMAS_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.581,
+            "z": 2.26
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_XMAS_6": {
+        "pos": {
+            "x": 0,
+            "y": -0.552,
+            "z": 1.839
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_XMAS_5": {
+        "pos": {
+            "x": 0,
+            "y": -0.838,
+            "z": 2.804
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_XMAS_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.39,
+            "z": 1.718
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_XMAS_5": {
+        "pos": {
+            "x": 0,
+            "y": -0.79,
+            "z": 2.4
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_XMAS_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.44,
+            "z": 1.805
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_XMAS_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.577,
+            "z": 2.12
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_XMAS_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.672,
+            "z": 2.498
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_XMAS_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.56,
+            "z": 2.173
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_XMAS_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.437,
+            "z": 1.558
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_XMAS_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.66,
+            "z": 1.969
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_XMAS_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.408,
+            "z": 1.597
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_XMAS_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.494,
+            "z": 2.117
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_XMAS_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.519,
+            "z": 1.827
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_XMAS_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.596,
+            "z": 1.912
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_XMAS_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.533,
+            "z": 2.124
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_XMAS_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.619,
+            "z": 2.083
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_XMAS_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.361,
+            "z": 1.585
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_XMAS_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.501,
+            "z": 1.886
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_XMAS_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.355,
+            "z": 1.397
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_XMAS_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.584,
+            "z": 2.043
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_XMAS_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.529,
+            "z": 2.027
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_VIRAL": {
+        "pos": {
+            "x": 0,
+            "y": -0.74,
+            "z": 2.93
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_LOV_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.723,
+            "z": 2.054
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_LOV_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.89,
+            "z": 1.99
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_LOV_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.328,
+            "z": 1.713
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_LOV_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.72,
+            "z": 1.9
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_LOV_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.59,
+            "z": 2
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_LOV_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.665,
+            "z": 2.049
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_LOV_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.699,
+            "z": 2.472
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_LOV_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.638,
+            "z": 2.56
+        },
+        "scale": 1
+    },
+    "MONSTER_FIRE_LOV_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.941,
+            "z": 3.23
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_LOV_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.664,
+            "z": 2.37
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_LOV_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.66,
+            "z": 2.31
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_LOV_1": {
+        "pos": {
+            "x": 0,
+            "y": -0.52,
+            "z": 1.76
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_LOV_2": {
+        "pos": {
+            "x": 0,
+            "y": -0.78,
+            "z": 2.15
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_LOV_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.524,
+            "z": 2.135
+        },
+        "scale": 1
+    },
+    "MONSTER_WATER_LOV_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.54,
+            "z": 1.9
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_LOV_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.451,
+            "z": 1.64
+        },
+        "scale": 1
+    },
+    "MONSTER_DUNGEON_LOV_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.411,
+            "z": 1.701
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_LOV_3": {
+        "pos": {
+            "x": 0,
+            "y": -0.49,
+            "z": 1.743
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_LOV_4": {
+        "pos": {
+            "x": 0,
+            "y": -0.58,
+            "z": 2.13
+        },
+        "scale": 1
+    },
+    "MONSTER_EARTH_LOV_5": {
+        "pos": {
+            "x": 0,
+            "y": -0.703,
+            "z": 2.95
+        },
+        "scale": 1
+    },
+    "MONSTER_WIND_LOV_5": {
+        "pos": {
+            "x": 0,
+            "y": -1.16,
+            "z": 2.39
+        },
+        "scale": 1
+    }
+}

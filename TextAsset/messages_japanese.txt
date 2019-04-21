@@ -1,0 +1,18 @@
+{
+  "key.system.application.name": "Draconius GO: Catch a Dragon!",
+  "key.button.ok": "OK",
+  "key.button.cancel.pure": "キャンセル",
+  "key.button.quit": "閉じる",
+  "key.beCarefulMessage.text": "常に気を緩めないでください。周囲の状況に注意するようにしましょう。",
+  "key.settings.language": "日本語",
+  "key.error.no_connection": "ホストに接続されていません。後ほどお試しください。",
+  "key.error.protocol_version_mismatch": "このゲームのバージョンは古くなっています。更新が必要です。",
+  "key.error.update_application": "このゲームのバージョンは古くなっています。更新が必要です。",
+  "key.ServiceException.Cause.RESPONSE_CODE": "エラー{0}\n{1}",
+  "key.ServiceException.Cause.TRY_AGAIN_LATER": "お待ちください",
+  "key.ServiceException.Cause.NO_CONNECTION": "インターネットに接続されていません",
+  "key.ServiceException.Cause.SERVER_DOWN": "ゲームのサーバーを一時的にご利用いただけませんあとでもう一度お試しください。",
+  "key.ServiceException.Cause.SERVER_MAINTENANCE": "ゲームのサーバーがメンテナンス中です。あとでもう一度お試しください。",
+  "key.ServiceException.Cause.PROTOCOL_MISMATCH": "このゲームのバージョンは古くなっています。更新が必要です。",
+  "key.modal.doYouWantToCloseApp": "アプリを閉じますか？"
+}

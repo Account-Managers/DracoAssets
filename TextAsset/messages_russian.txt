@@ -1,0 +1,18 @@
+{
+  "key.system.application.name": "Draconius GO: Catch a Dragon!",
+  "key.button.ok": "OK",
+  "key.button.cancel.pure": "ОТМЕНА",
+  "key.button.quit": "ЗАКРЫТЬ",
+  "key.beCarefulMessage.text": "Будьте осторожны во время игры. Смотрите по сторонам.",
+  "key.settings.language": "Русский",
+  "key.error.no_connection": "Не удалось подключиться к серверу. Попробуйте позже.",
+  "key.error.protocol_version_mismatch": "Версия игры устарела. Требуется обновление.",
+  "key.error.update_application": "Версия игры устарела. Требуется обновление.",
+  "key.ServiceException.Cause.RESPONSE_CODE": "Ошибка {0}\n{1}",
+  "key.ServiceException.Cause.TRY_AGAIN_LATER": "Сервер не отвечает. Попробуйте позже.",
+  "key.ServiceException.Cause.NO_CONNECTION": "Отсутствует интернет-соединение",
+  "key.ServiceException.Cause.SERVER_DOWN": "Игровой сервер временно недоступен. Пожалуйста, попробуйте позже.",
+  "key.ServiceException.Cause.SERVER_MAINTENANCE": "В настоящий момент проводится техническое обслуживание игрового сервера. Пожалуйста, попробуйте позже.",
+  "key.ServiceException.Cause.PROTOCOL_MISMATCH": "Версия игры устарела. Требуется обновление.",
+  "key.modal.doYouWantToCloseApp": "Вы хотите закрыть приложение?"
+}
