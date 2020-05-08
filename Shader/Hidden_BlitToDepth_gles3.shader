@@ -23,7 +23,11 @@ uniform 	vec4 hlslcc_mtx4x4unity_MatrixVP[4];
 uniform 	vec4 _MainTex_ST;
 in highp vec4 in_POSITION0;
 in highp vec2 in_TEXCOORD0;
+<<<<<<< HEAD
 layout(location = 0) out highp vec2 vs_TEXCOORD0;
+=======
+out highp vec2 vs_TEXCOORD0;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 vec4 u_xlat0;
 vec4 u_xlat1;
 void main()
@@ -46,7 +50,11 @@ void main()
 
 precision highp int;
 uniform lowp sampler2D _MainTex;
+<<<<<<< HEAD
 layout(location = 0) in highp vec2 vs_TEXCOORD0;
+=======
+in highp vec2 vs_TEXCOORD0;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 layout(location = 0) out mediump vec4 SV_Target0;
 lowp float u_xlat10_0;
 void main()
@@ -70,7 +78,11 @@ uniform 	vec4 hlslcc_mtx4x4unity_MatrixVP[4];
 uniform 	vec4 _MainTex_ST;
 in highp vec4 in_POSITION0;
 in highp vec2 in_TEXCOORD0;
+<<<<<<< HEAD
 layout(location = 0) out highp vec2 vs_TEXCOORD0;
+=======
+out highp vec2 vs_TEXCOORD0;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 vec4 u_xlat0;
 vec4 u_xlat1;
 void main()
@@ -93,7 +105,11 @@ void main()
 
 precision highp int;
 uniform lowp sampler2D _MainTex;
+<<<<<<< HEAD
 layout(location = 0) in highp vec2 vs_TEXCOORD0;
+=======
+in highp vec2 vs_TEXCOORD0;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 layout(location = 0) out mediump vec4 SV_Target0;
 lowp float u_xlat10_0;
 void main()
@@ -117,7 +133,11 @@ uniform 	vec4 hlslcc_mtx4x4unity_MatrixVP[4];
 uniform 	vec4 _MainTex_ST;
 in highp vec4 in_POSITION0;
 in highp vec2 in_TEXCOORD0;
+<<<<<<< HEAD
 layout(location = 0) out highp vec2 vs_TEXCOORD0;
+=======
+out highp vec2 vs_TEXCOORD0;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 vec4 u_xlat0;
 vec4 u_xlat1;
 void main()
@@ -140,7 +160,11 @@ void main()
 
 precision highp int;
 uniform lowp sampler2D _MainTex;
+<<<<<<< HEAD
 layout(location = 0) in highp vec2 vs_TEXCOORD0;
+=======
+in highp vec2 vs_TEXCOORD0;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 layout(location = 0) out mediump vec4 SV_Target0;
 lowp float u_xlat10_0;
 void main()

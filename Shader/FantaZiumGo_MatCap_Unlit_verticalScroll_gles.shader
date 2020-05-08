@@ -11,7 +11,11 @@ _MainTex ("Texture", 2D) = "white" { }
 _MatCapIn ("Matcap Intensity", Range(1, 10)) = 1.5
 [Space(10)] [Header(Gradient)] _GradientMap ("GradientMap (RGB)", 2D) = "white" { }
 _TexScaleX ("Texture Scale: X", Float) = 1
+<<<<<<< HEAD
 _TexScaleY ("Texture Scale: Y", Float) = 1
+=======
+_TexScaleY ("Texture Scale: Y", Float) = 0.1
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 _GradientColor ("Gradient Color", Color) = (1,1,1,1)
 _GradientIn ("Gradient Intensity", Range(0, 1)) = 1
 _ScrollSpeed ("Scroll Speed", Range(-10, 10)) = 1
@@ -23,7 +27,11 @@ SubShader {
   LOD 100
   Tags { "IGNOREPROJECTOR" = "true" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" }
   Cull Off
+<<<<<<< HEAD
   GpuProgramID 37355
+=======
+  GpuProgramID 16402
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 Program "vp" {
 SubProgram "gles hw_tier00 " {
 "#version 100
@@ -33,13 +41,21 @@ attribute vec4 _glesVertex;
 attribute vec3 _glesNormal;
 attribute vec4 _glesMultiTexCoord0;
 uniform highp mat4 unity_ObjectToWorld;
+<<<<<<< HEAD
+=======
+uniform highp mat4 glstate_matrix_projection;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 uniform highp mat4 unity_MatrixV;
 uniform highp mat4 unity_MatrixVP;
 uniform lowp vec4 _MainTex_ST;
 varying lowp vec2 xlv_TEXCOORD0;
 varying highp vec3 xlv_TEXCOORD1;
 varying highp vec3 xlv_TEXCOORD2;
+<<<<<<< HEAD
 varying lowp vec3 xlv_TEXCOORD3;
+=======
+varying lowp vec3 xlv_TEXCOORD4;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 void main ()
 {
   highp vec4 tmpvar_1;
@@ -49,6 +65,7 @@ void main ()
   highp vec4 tmpvar_4;
   tmpvar_4.w = 1.0;
   tmpvar_4.xyz = tmpvar_1.xyz;
+<<<<<<< HEAD
   highp vec4 tmpvar_5;
   tmpvar_5.w = 0.0;
   tmpvar_5.xyz = normalize(_glesVertex.xyz);
@@ -67,6 +84,23 @@ void main ()
   xlv_TEXCOORD1 = normalize((unity_MatrixV * (unity_ObjectToWorld * tmpvar_7)).xyz);
   xlv_TEXCOORD2 = normalize(((unity_MatrixV * unity_ObjectToWorld) * tmpvar_8)).xyz;
   xlv_TEXCOORD3 = tmpvar_3;
+=======
+  highp vec3 tmpvar_5;
+  tmpvar_5 = (glstate_matrix_projection * _glesVertex).xyz;
+  tmpvar_3 = tmpvar_5;
+  tmpvar_2 = ((_glesMultiTexCoord0.xy * _MainTex_ST.xy) + _MainTex_ST.zw);
+  highp vec4 tmpvar_6;
+  tmpvar_6.w = 1.0;
+  tmpvar_6.xyz = tmpvar_1.xyz;
+  highp vec4 tmpvar_7;
+  tmpvar_7.w = 0.0;
+  tmpvar_7.xyz = _glesNormal;
+  gl_Position = (unity_MatrixVP * (unity_ObjectToWorld * tmpvar_4));
+  xlv_TEXCOORD0 = tmpvar_2;
+  xlv_TEXCOORD1 = normalize((unity_MatrixV * (unity_ObjectToWorld * tmpvar_6)).xyz);
+  xlv_TEXCOORD2 = normalize(((unity_MatrixV * unity_ObjectToWorld) * tmpvar_7)).xyz;
+  xlv_TEXCOORD4 = tmpvar_3;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 }
 
 
@@ -86,7 +120,11 @@ uniform highp float _ScrollSpeed;
 varying lowp vec2 xlv_TEXCOORD0;
 varying highp vec3 xlv_TEXCOORD1;
 varying highp vec3 xlv_TEXCOORD2;
+<<<<<<< HEAD
 varying lowp vec3 xlv_TEXCOORD3;
+=======
+varying lowp vec3 xlv_TEXCOORD4;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 void main ()
 {
   lowp vec4 tmpvar_1;
@@ -109,8 +147,13 @@ void main ()
   highp vec2 tmpvar_7;
   tmpvar_7 = ((r_3.xy / m_2) + 0.5);
   highp vec2 tmpvar_8;
+<<<<<<< HEAD
   tmpvar_8.x = (xlv_TEXCOORD3.x * _TexScaleX);
   tmpvar_8.y = ((xlv_TEXCOORD3.y * _TexScaleY) + (float(mod ((_Time.y * _ScrollSpeed), 2.0))));
+=======
+  tmpvar_8.x = (xlv_TEXCOORD4.x * _TexScaleX);
+  tmpvar_8.y = ((xlv_TEXCOORD4.y * _TexScaleY) + (float(mod ((_Time.y * _ScrollSpeed), 2.0))));
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
   lowp vec4 tmpvar_9;
   tmpvar_9 = (texture2D (_GradientMap, tmpvar_8) * _GradientColor);
   lowp vec4 tmpvar_10;
@@ -137,13 +180,21 @@ attribute vec4 _glesVertex;
 attribute vec3 _glesNormal;
 attribute vec4 _glesMultiTexCoord0;
 uniform highp mat4 unity_ObjectToWorld;
+<<<<<<< HEAD
+=======
+uniform highp mat4 glstate_matrix_projection;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 uniform highp mat4 unity_MatrixV;
 uniform highp mat4 unity_MatrixVP;
 uniform lowp vec4 _MainTex_ST;
 varying lowp vec2 xlv_TEXCOORD0;
 varying highp vec3 xlv_TEXCOORD1;
 varying highp vec3 xlv_TEXCOORD2;
+<<<<<<< HEAD
 varying lowp vec3 xlv_TEXCOORD3;
+=======
+varying lowp vec3 xlv_TEXCOORD4;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 void main ()
 {
   highp vec4 tmpvar_1;
@@ -153,6 +204,7 @@ void main ()
   highp vec4 tmpvar_4;
   tmpvar_4.w = 1.0;
   tmpvar_4.xyz = tmpvar_1.xyz;
+<<<<<<< HEAD
   highp vec4 tmpvar_5;
   tmpvar_5.w = 0.0;
   tmpvar_5.xyz = normalize(_glesVertex.xyz);
@@ -171,6 +223,23 @@ void main ()
   xlv_TEXCOORD1 = normalize((unity_MatrixV * (unity_ObjectToWorld * tmpvar_7)).xyz);
   xlv_TEXCOORD2 = normalize(((unity_MatrixV * unity_ObjectToWorld) * tmpvar_8)).xyz;
   xlv_TEXCOORD3 = tmpvar_3;
+=======
+  highp vec3 tmpvar_5;
+  tmpvar_5 = (glstate_matrix_projection * _glesVertex).xyz;
+  tmpvar_3 = tmpvar_5;
+  tmpvar_2 = ((_glesMultiTexCoord0.xy * _MainTex_ST.xy) + _MainTex_ST.zw);
+  highp vec4 tmpvar_6;
+  tmpvar_6.w = 1.0;
+  tmpvar_6.xyz = tmpvar_1.xyz;
+  highp vec4 tmpvar_7;
+  tmpvar_7.w = 0.0;
+  tmpvar_7.xyz = _glesNormal;
+  gl_Position = (unity_MatrixVP * (unity_ObjectToWorld * tmpvar_4));
+  xlv_TEXCOORD0 = tmpvar_2;
+  xlv_TEXCOORD1 = normalize((unity_MatrixV * (unity_ObjectToWorld * tmpvar_6)).xyz);
+  xlv_TEXCOORD2 = normalize(((unity_MatrixV * unity_ObjectToWorld) * tmpvar_7)).xyz;
+  xlv_TEXCOORD4 = tmpvar_3;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 }
 
 
@@ -190,7 +259,11 @@ uniform highp float _ScrollSpeed;
 varying lowp vec2 xlv_TEXCOORD0;
 varying highp vec3 xlv_TEXCOORD1;
 varying highp vec3 xlv_TEXCOORD2;
+<<<<<<< HEAD
 varying lowp vec3 xlv_TEXCOORD3;
+=======
+varying lowp vec3 xlv_TEXCOORD4;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 void main ()
 {
   lowp vec4 tmpvar_1;
@@ -213,8 +286,13 @@ void main ()
   highp vec2 tmpvar_7;
   tmpvar_7 = ((r_3.xy / m_2) + 0.5);
   highp vec2 tmpvar_8;
+<<<<<<< HEAD
   tmpvar_8.x = (xlv_TEXCOORD3.x * _TexScaleX);
   tmpvar_8.y = ((xlv_TEXCOORD3.y * _TexScaleY) + (float(mod ((_Time.y * _ScrollSpeed), 2.0))));
+=======
+  tmpvar_8.x = (xlv_TEXCOORD4.x * _TexScaleX);
+  tmpvar_8.y = ((xlv_TEXCOORD4.y * _TexScaleY) + (float(mod ((_Time.y * _ScrollSpeed), 2.0))));
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
   lowp vec4 tmpvar_9;
   tmpvar_9 = (texture2D (_GradientMap, tmpvar_8) * _GradientColor);
   lowp vec4 tmpvar_10;
@@ -241,13 +319,21 @@ attribute vec4 _glesVertex;
 attribute vec3 _glesNormal;
 attribute vec4 _glesMultiTexCoord0;
 uniform highp mat4 unity_ObjectToWorld;
+<<<<<<< HEAD
+=======
+uniform highp mat4 glstate_matrix_projection;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 uniform highp mat4 unity_MatrixV;
 uniform highp mat4 unity_MatrixVP;
 uniform lowp vec4 _MainTex_ST;
 varying lowp vec2 xlv_TEXCOORD0;
 varying highp vec3 xlv_TEXCOORD1;
 varying highp vec3 xlv_TEXCOORD2;
+<<<<<<< HEAD
 varying lowp vec3 xlv_TEXCOORD3;
+=======
+varying lowp vec3 xlv_TEXCOORD4;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 void main ()
 {
   highp vec4 tmpvar_1;
@@ -257,6 +343,7 @@ void main ()
   highp vec4 tmpvar_4;
   tmpvar_4.w = 1.0;
   tmpvar_4.xyz = tmpvar_1.xyz;
+<<<<<<< HEAD
   highp vec4 tmpvar_5;
   tmpvar_5.w = 0.0;
   tmpvar_5.xyz = normalize(_glesVertex.xyz);
@@ -275,6 +362,23 @@ void main ()
   xlv_TEXCOORD1 = normalize((unity_MatrixV * (unity_ObjectToWorld * tmpvar_7)).xyz);
   xlv_TEXCOORD2 = normalize(((unity_MatrixV * unity_ObjectToWorld) * tmpvar_8)).xyz;
   xlv_TEXCOORD3 = tmpvar_3;
+=======
+  highp vec3 tmpvar_5;
+  tmpvar_5 = (glstate_matrix_projection * _glesVertex).xyz;
+  tmpvar_3 = tmpvar_5;
+  tmpvar_2 = ((_glesMultiTexCoord0.xy * _MainTex_ST.xy) + _MainTex_ST.zw);
+  highp vec4 tmpvar_6;
+  tmpvar_6.w = 1.0;
+  tmpvar_6.xyz = tmpvar_1.xyz;
+  highp vec4 tmpvar_7;
+  tmpvar_7.w = 0.0;
+  tmpvar_7.xyz = _glesNormal;
+  gl_Position = (unity_MatrixVP * (unity_ObjectToWorld * tmpvar_4));
+  xlv_TEXCOORD0 = tmpvar_2;
+  xlv_TEXCOORD1 = normalize((unity_MatrixV * (unity_ObjectToWorld * tmpvar_6)).xyz);
+  xlv_TEXCOORD2 = normalize(((unity_MatrixV * unity_ObjectToWorld) * tmpvar_7)).xyz;
+  xlv_TEXCOORD4 = tmpvar_3;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 }
 
 
@@ -294,7 +398,11 @@ uniform highp float _ScrollSpeed;
 varying lowp vec2 xlv_TEXCOORD0;
 varying highp vec3 xlv_TEXCOORD1;
 varying highp vec3 xlv_TEXCOORD2;
+<<<<<<< HEAD
 varying lowp vec3 xlv_TEXCOORD3;
+=======
+varying lowp vec3 xlv_TEXCOORD4;
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 void main ()
 {
   lowp vec4 tmpvar_1;
@@ -317,8 +425,13 @@ void main ()
   highp vec2 tmpvar_7;
   tmpvar_7 = ((r_3.xy / m_2) + 0.5);
   highp vec2 tmpvar_8;
+<<<<<<< HEAD
   tmpvar_8.x = (xlv_TEXCOORD3.x * _TexScaleX);
   tmpvar_8.y = ((xlv_TEXCOORD3.y * _TexScaleY) + (float(mod ((_Time.y * _ScrollSpeed), 2.0))));
+=======
+  tmpvar_8.x = (xlv_TEXCOORD4.x * _TexScaleX);
+  tmpvar_8.y = ((xlv_TEXCOORD4.y * _TexScaleY) + (float(mod ((_Time.y * _ScrollSpeed), 2.0))));
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
   lowp vec4 tmpvar_9;
   tmpvar_9 = (texture2D (_GradientMap, tmpvar_8) * _GradientColor);
   lowp vec4 tmpvar_10;

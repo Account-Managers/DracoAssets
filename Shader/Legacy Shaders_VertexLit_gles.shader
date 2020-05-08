@@ -17,7 +17,11 @@ SubShader {
  Pass {
   LOD 100
   Tags { "LIGHTMODE" = "Vertex" "RenderType" = "Opaque" }
+<<<<<<< HEAD
   GpuProgramID 176578
+=======
+  GpuProgramID 144514
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 Program "vp" {
 SubProgram "gles hw_tier00 " {
 "#version 100

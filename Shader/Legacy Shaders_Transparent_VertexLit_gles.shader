@@ -18,7 +18,11 @@ SubShader {
   LOD 100
   Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "Vertex" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
   ZWrite Off
+<<<<<<< HEAD
   GpuProgramID 128761
+=======
+  GpuProgramID 104301
+>>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 Program "vp" {
 SubProgram "gles hw_tier00 " {
 "#version 100
