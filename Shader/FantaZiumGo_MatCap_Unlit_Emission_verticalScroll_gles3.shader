@@ -13,11 +13,7 @@ _EmisCol ("Emission Color", Color) = (0,0,0,0)
 _EmisMask ("Emission Mask", 2D) = "white" { }
 [Space(10)] [Header(Gradient)] _GradientMap ("GradientMap (RGB)", 2D) = "white" { }
 _TexScaleX ("Texture Scale: X", Float) = 1
-<<<<<<< HEAD
 _TexScaleY ("Texture Scale: Y", Float) = 1
-=======
-_TexScaleY ("Texture Scale: Y", Float) = 0.1
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 _GradientColor ("Gradient Color", Color) = (1,1,1,1)
 _GradientIn ("Gradient Intensity", Range(0, 1)) = 1
 _ScrollSpeed ("Scroll Speed", Range(-10, 10)) = 1
@@ -28,21 +24,13 @@ SubShader {
  Pass {
   LOD 100
   Tags { "IGNOREPROJECTOR" = "true" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" }
-<<<<<<< HEAD
   GpuProgramID 65085
-=======
-  GpuProgramID 33032
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 Program "vp" {
 SubProgram "gles3 hw_tier00 " {
 "#ifdef VERTEX
 #version 300 es
 
 uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
-<<<<<<< HEAD
-=======
-uniform 	vec4 hlslcc_mtx4x4glstate_matrix_projection[4];
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 uniform 	vec4 hlslcc_mtx4x4unity_MatrixV[4];
 uniform 	vec4 hlslcc_mtx4x4unity_MatrixVP[4];
 uniform 	mediump vec4 _MainTex_ST;
@@ -52,11 +40,7 @@ in highp vec4 in_TEXCOORD0;
 out mediump vec2 vs_TEXCOORD0;
 out highp vec3 vs_TEXCOORD1;
 out highp vec3 vs_TEXCOORD2;
-<<<<<<< HEAD
 out mediump vec3 vs_TEXCOORD3;
-=======
-out mediump vec3 vs_TEXCOORD4;
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 vec4 u_xlat0;
 vec4 u_xlat1;
 float u_xlat6;
@@ -98,7 +82,6 @@ void main()
     u_xlat6 = dot(u_xlat0, u_xlat0);
     u_xlat6 = inversesqrt(u_xlat6);
     vs_TEXCOORD2.xyz = vec3(u_xlat6) * u_xlat0.xyz;
-<<<<<<< HEAD
     u_xlat0.x = dot(in_POSITION0.xyz, in_POSITION0.xyz);
     u_xlat0.x = inversesqrt(u_xlat0.x);
     u_xlat0.xyz = u_xlat0.xxx * in_POSITION0.xyz;
@@ -106,13 +89,6 @@ void main()
     u_xlat0.xyw = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * u_xlat0.xxx + u_xlat1.xyz;
     u_xlat0.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * u_xlat0.zzz + u_xlat0.xyw;
     vs_TEXCOORD3.xyz = u_xlat0.xyz;
-=======
-    u_xlat0.xyz = in_POSITION0.yyy * hlslcc_mtx4x4glstate_matrix_projection[1].xyz;
-    u_xlat0.xyz = hlslcc_mtx4x4glstate_matrix_projection[0].xyz * in_POSITION0.xxx + u_xlat0.xyz;
-    u_xlat0.xyz = hlslcc_mtx4x4glstate_matrix_projection[2].xyz * in_POSITION0.zzz + u_xlat0.xyz;
-    u_xlat0.xyz = hlslcc_mtx4x4glstate_matrix_projection[3].xyz * in_POSITION0.www + u_xlat0.xyz;
-    vs_TEXCOORD4.xyz = u_xlat0.xyz;
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
     return;
 }
 
@@ -137,11 +113,7 @@ uniform lowp sampler2D _GradientMap;
 in mediump vec2 vs_TEXCOORD0;
 in highp vec3 vs_TEXCOORD1;
 in highp vec3 vs_TEXCOORD2;
-<<<<<<< HEAD
 in mediump vec3 vs_TEXCOORD3;
-=======
-in mediump vec3 vs_TEXCOORD4;
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 layout(location = 0) out mediump vec4 SV_Target0;
 vec3 u_xlat0;
 mediump vec4 u_xlat16_0;
@@ -190,11 +162,7 @@ void main()
     u_xlat6.xy = (bool(u_xlatb6)) ? vec2(2.0, 0.5) : vec2(-2.0, -0.5);
     u_xlat2.x = u_xlat6.y * u_xlat2.x;
     u_xlat2.x = fract(u_xlat2.x);
-<<<<<<< HEAD
     u_xlat3.xy = vs_TEXCOORD3.xy * vec2(_TexScaleX, _TexScaleY);
-=======
-    u_xlat3.xy = vs_TEXCOORD4.xy * vec2(_TexScaleX, _TexScaleY);
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
     u_xlat3.z = u_xlat6.x * u_xlat2.x + u_xlat3.y;
     u_xlat10_2.xyz = texture(_GradientMap, u_xlat3.xz).xyz;
     u_xlat16_2.xyz = u_xlat10_2.xyz * _GradientColor.xyz;
@@ -212,10 +180,6 @@ SubProgram "gles3 hw_tier01 " {
 #version 300 es
 
 uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
-<<<<<<< HEAD
-=======
-uniform 	vec4 hlslcc_mtx4x4glstate_matrix_projection[4];
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 uniform 	vec4 hlslcc_mtx4x4unity_MatrixV[4];
 uniform 	vec4 hlslcc_mtx4x4unity_MatrixVP[4];
 uniform 	mediump vec4 _MainTex_ST;
@@ -225,11 +189,7 @@ in highp vec4 in_TEXCOORD0;
 out mediump vec2 vs_TEXCOORD0;
 out highp vec3 vs_TEXCOORD1;
 out highp vec3 vs_TEXCOORD2;
-<<<<<<< HEAD
 out mediump vec3 vs_TEXCOORD3;
-=======
-out mediump vec3 vs_TEXCOORD4;
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 vec4 u_xlat0;
 vec4 u_xlat1;
 float u_xlat6;
@@ -271,7 +231,6 @@ void main()
     u_xlat6 = dot(u_xlat0, u_xlat0);
     u_xlat6 = inversesqrt(u_xlat6);
     vs_TEXCOORD2.xyz = vec3(u_xlat6) * u_xlat0.xyz;
-<<<<<<< HEAD
     u_xlat0.x = dot(in_POSITION0.xyz, in_POSITION0.xyz);
     u_xlat0.x = inversesqrt(u_xlat0.x);
     u_xlat0.xyz = u_xlat0.xxx * in_POSITION0.xyz;
@@ -279,13 +238,6 @@ void main()
     u_xlat0.xyw = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * u_xlat0.xxx + u_xlat1.xyz;
     u_xlat0.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * u_xlat0.zzz + u_xlat0.xyw;
     vs_TEXCOORD3.xyz = u_xlat0.xyz;
-=======
-    u_xlat0.xyz = in_POSITION0.yyy * hlslcc_mtx4x4glstate_matrix_projection[1].xyz;
-    u_xlat0.xyz = hlslcc_mtx4x4glstate_matrix_projection[0].xyz * in_POSITION0.xxx + u_xlat0.xyz;
-    u_xlat0.xyz = hlslcc_mtx4x4glstate_matrix_projection[2].xyz * in_POSITION0.zzz + u_xlat0.xyz;
-    u_xlat0.xyz = hlslcc_mtx4x4glstate_matrix_projection[3].xyz * in_POSITION0.www + u_xlat0.xyz;
-    vs_TEXCOORD4.xyz = u_xlat0.xyz;
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
     return;
 }
 
@@ -310,11 +262,7 @@ uniform lowp sampler2D _GradientMap;
 in mediump vec2 vs_TEXCOORD0;
 in highp vec3 vs_TEXCOORD1;
 in highp vec3 vs_TEXCOORD2;
-<<<<<<< HEAD
 in mediump vec3 vs_TEXCOORD3;
-=======
-in mediump vec3 vs_TEXCOORD4;
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 layout(location = 0) out mediump vec4 SV_Target0;
 vec3 u_xlat0;
 mediump vec4 u_xlat16_0;
@@ -363,11 +311,7 @@ void main()
     u_xlat6.xy = (bool(u_xlatb6)) ? vec2(2.0, 0.5) : vec2(-2.0, -0.5);
     u_xlat2.x = u_xlat6.y * u_xlat2.x;
     u_xlat2.x = fract(u_xlat2.x);
-<<<<<<< HEAD
     u_xlat3.xy = vs_TEXCOORD3.xy * vec2(_TexScaleX, _TexScaleY);
-=======
-    u_xlat3.xy = vs_TEXCOORD4.xy * vec2(_TexScaleX, _TexScaleY);
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
     u_xlat3.z = u_xlat6.x * u_xlat2.x + u_xlat3.y;
     u_xlat10_2.xyz = texture(_GradientMap, u_xlat3.xz).xyz;
     u_xlat16_2.xyz = u_xlat10_2.xyz * _GradientColor.xyz;
@@ -385,10 +329,6 @@ SubProgram "gles3 hw_tier02 " {
 #version 300 es
 
 uniform 	vec4 hlslcc_mtx4x4unity_ObjectToWorld[4];
-<<<<<<< HEAD
-=======
-uniform 	vec4 hlslcc_mtx4x4glstate_matrix_projection[4];
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 uniform 	vec4 hlslcc_mtx4x4unity_MatrixV[4];
 uniform 	vec4 hlslcc_mtx4x4unity_MatrixVP[4];
 uniform 	mediump vec4 _MainTex_ST;
@@ -398,11 +338,7 @@ in highp vec4 in_TEXCOORD0;
 out mediump vec2 vs_TEXCOORD0;
 out highp vec3 vs_TEXCOORD1;
 out highp vec3 vs_TEXCOORD2;
-<<<<<<< HEAD
 out mediump vec3 vs_TEXCOORD3;
-=======
-out mediump vec3 vs_TEXCOORD4;
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 vec4 u_xlat0;
 vec4 u_xlat1;
 float u_xlat6;
@@ -444,7 +380,6 @@ void main()
     u_xlat6 = dot(u_xlat0, u_xlat0);
     u_xlat6 = inversesqrt(u_xlat6);
     vs_TEXCOORD2.xyz = vec3(u_xlat6) * u_xlat0.xyz;
-<<<<<<< HEAD
     u_xlat0.x = dot(in_POSITION0.xyz, in_POSITION0.xyz);
     u_xlat0.x = inversesqrt(u_xlat0.x);
     u_xlat0.xyz = u_xlat0.xxx * in_POSITION0.xyz;
@@ -452,13 +387,6 @@ void main()
     u_xlat0.xyw = hlslcc_mtx4x4unity_ObjectToWorld[0].xyz * u_xlat0.xxx + u_xlat1.xyz;
     u_xlat0.xyz = hlslcc_mtx4x4unity_ObjectToWorld[2].xyz * u_xlat0.zzz + u_xlat0.xyw;
     vs_TEXCOORD3.xyz = u_xlat0.xyz;
-=======
-    u_xlat0.xyz = in_POSITION0.yyy * hlslcc_mtx4x4glstate_matrix_projection[1].xyz;
-    u_xlat0.xyz = hlslcc_mtx4x4glstate_matrix_projection[0].xyz * in_POSITION0.xxx + u_xlat0.xyz;
-    u_xlat0.xyz = hlslcc_mtx4x4glstate_matrix_projection[2].xyz * in_POSITION0.zzz + u_xlat0.xyz;
-    u_xlat0.xyz = hlslcc_mtx4x4glstate_matrix_projection[3].xyz * in_POSITION0.www + u_xlat0.xyz;
-    vs_TEXCOORD4.xyz = u_xlat0.xyz;
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
     return;
 }
 
@@ -483,11 +411,7 @@ uniform lowp sampler2D _GradientMap;
 in mediump vec2 vs_TEXCOORD0;
 in highp vec3 vs_TEXCOORD1;
 in highp vec3 vs_TEXCOORD2;
-<<<<<<< HEAD
 in mediump vec3 vs_TEXCOORD3;
-=======
-in mediump vec3 vs_TEXCOORD4;
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
 layout(location = 0) out mediump vec4 SV_Target0;
 vec3 u_xlat0;
 mediump vec4 u_xlat16_0;
@@ -536,11 +460,7 @@ void main()
     u_xlat6.xy = (bool(u_xlatb6)) ? vec2(2.0, 0.5) : vec2(-2.0, -0.5);
     u_xlat2.x = u_xlat6.y * u_xlat2.x;
     u_xlat2.x = fract(u_xlat2.x);
-<<<<<<< HEAD
     u_xlat3.xy = vs_TEXCOORD3.xy * vec2(_TexScaleX, _TexScaleY);
-=======
-    u_xlat3.xy = vs_TEXCOORD4.xy * vec2(_TexScaleX, _TexScaleY);
->>>>>>> 6d5f1550931c572d52883107850b24b40c30b745
     u_xlat3.z = u_xlat6.x * u_xlat2.x + u_xlat3.y;
     u_xlat10_2.xyz = texture(_GradientMap, u_xlat3.xz).xyz;
     u_xlat16_2.xyz = u_xlat10_2.xyz * _GradientColor.xyz;
