@@ -1,0 +1,18 @@
+{
+  "key.system.application.name": "Draconius GO: Catch a Dragon!",
+  "key.button.ok": "OK",
+  "key.button.cancel.pure": "ANULUJ",
+  "key.button.quit": "ZAMKNIJ",
+  "key.beCarefulMessage.text": "Bądź ostrożny podczas gry. Patrz dookoła.",
+  "key.settings.language": "Polski",
+  "key.error.no_connection": "Nie udało się połączyć z serwerem. Spróbuj później.",
+  "key.error.protocol_version_mismatch": "Wersja gry jest przestarzała. Aktualizacja gry jest wymagana.",
+  "key.error.update_application": "Wersja gry jest przestarzała. Aktualizacja gry jest wymagana.",
+  "key.ServiceException.Cause.RESPONSE_CODE": "Błąd {0}\n{1}",
+  "key.ServiceException.Cause.TRY_AGAIN_LATER": "Serwer nie odpowiada. Spróbuj później",
+  "key.ServiceException.Cause.NO_CONNECTION": "Brak połączenia internetowego",
+  "key.ServiceException.Cause.SERVER_DOWN": "Serwer gry jest czasowo niędostępny. Spróbuj później",
+  "key.ServiceException.Cause.SERVER_MAINTENANCE": "Serwer gry jest niedostępny z powodu prac technicznych. Proszę spróbować później.",
+  "key.ServiceException.Cause.PROTOCOL_MISMATCH": "Wersja gry jest przestarzała. Wymagana jest aktualizacja.",
+  "key.modal.doYouWantToCloseApp": "Chcesz zamknąć aplikację?"
+}

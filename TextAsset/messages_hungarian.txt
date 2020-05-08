@@ -1,0 +1,18 @@
+{
+  "key.system.application.name": "Draconius GO: Catch a Dragon!",
+  "key.button.ok": "OK",
+  "key.button.cancel.pure": "TÖRLÉS",
+  "key.button.quit": "BEZÁR",
+  "key.beCarefulMessage.text": "Legyen óvatos a játék során. Nézzan szét maga körül.",
+  "key.settings.language": "Magyar",
+  "key.error.no_connection": "Nem sikerült kapcsolódni a szerverhez. Próbálja meg később.",
+  "key.error.protocol_version_mismatch": "A játék jelen verziója elavult. Frissítse.",
+  "key.error.update_application": "A játék jelen verziója elavult. Frissítse.",
+  "key.ServiceException.Cause.RESPONSE_CODE": "Hiba {0}\n{1}",
+  "key.ServiceException.Cause.TRY_AGAIN_LATER": "A szerver nem válaszol. Próbálkozzon később.",
+  "key.ServiceException.Cause.NO_CONNECTION": "Nincs internet-kapcsolat",
+  "key.ServiceException.Cause.SERVER_DOWN": "A játékszerver ideiglenesen nem elérhető. Kérjük, próbálja meg később",
+  "key.ServiceException.Cause.SERVER_MAINTENANCE": "Jelenleg műszaki karbantartást végzünk a szerveren. Kérjük, próbálja meg később.",
+  "key.ServiceException.Cause.PROTOCOL_MISMATCH": "A játék jelen verziója elavult. Frissítse",
+  "key.modal.doYouWantToCloseApp": "Be szeretné zárni az applikációt?"
+}

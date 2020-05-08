@@ -1,0 +1,18 @@
+{
+  "key.system.application.name": "«Draconius GO: Catch a Dragon!»",
+  "key.button.ok": "OK",
+  "key.button.cancel.pure": "HAYIR",
+  "key.button.quit": "EVET",
+  "key.beCarefulMessage.text": "Oynarken dikkatli olun. Etrafınıza dikkat edin.",
+  "key.settings.language": "Türkçe",
+  "key.error.no_connection": "Server ile bağlantı kesildi. Bir süre sonra tekrar deneyin.",
+  "key.error.protocol_version_mismatch": "Oyun sayfasını yenileyin.",
+  "key.error.update_application": "Oyun sayfasını yenileyin.",
+  "key.ServiceException.Cause.RESPONSE_CODE": "Hata {0}\n{1}",
+  "key.ServiceException.Cause.TRY_AGAIN_LATER": "Sunucuya ulaşılamıyor. Bir süre sonra tekrar deneyiniz",
+  "key.ServiceException.Cause.NO_CONNECTION": "İnternet ile bağlantı yok",
+  "key.ServiceException.Cause.SERVER_DOWN": "Sunucuya ulaşılamıyor. Daha sonra tekrar deneyiniz.",
+  "key.ServiceException.Cause.SERVER_MAINTENANCE": "Sunucuda şu an bakım yapılmaktadır. Daha sonra tekrar deneyiniz.",
+  "key.ServiceException.Cause.PROTOCOL_MISMATCH": "Oyunun versiyonu eskidir. Oyunu güncelleyiniz",
+  "key.modal.doYouWantToCloseApp": "Oyundan çıkmak istiyor musunuz?"
+}
