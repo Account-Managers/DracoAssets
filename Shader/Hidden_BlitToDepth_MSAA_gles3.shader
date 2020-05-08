@@ -22,7 +22,7 @@ uniform 	vec4 hlslcc_mtx4x4unity_MatrixVP[4];
 uniform 	vec4 _MainTex_ST;
 in highp vec4 in_POSITION0;
 in highp vec2 in_TEXCOORD0;
-out highp vec2 vs_TEXCOORD0;
+layout(location = 0) out highp vec2 vs_TEXCOORD0;
 vec4 u_xlat0;
 vec4 u_xlat1;
 void main()
@@ -64,7 +64,7 @@ uniform 	vec4 hlslcc_mtx4x4unity_MatrixVP[4];
 uniform 	vec4 _MainTex_ST;
 in highp vec4 in_POSITION0;
 in highp vec2 in_TEXCOORD0;
-out highp vec2 vs_TEXCOORD0;
+layout(location = 0) out highp vec2 vs_TEXCOORD0;
 vec4 u_xlat0;
 vec4 u_xlat1;
 void main()
@@ -106,7 +106,7 @@ uniform 	vec4 hlslcc_mtx4x4unity_MatrixVP[4];
 uniform 	vec4 _MainTex_ST;
 in highp vec4 in_POSITION0;
 in highp vec2 in_TEXCOORD0;
-out highp vec2 vs_TEXCOORD0;
+layout(location = 0) out highp vec2 vs_TEXCOORD0;
 vec4 u_xlat0;
 vec4 u_xlat1;
 void main()

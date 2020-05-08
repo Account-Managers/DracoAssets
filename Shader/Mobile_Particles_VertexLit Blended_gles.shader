@@ -14,7 +14,7 @@ SubShader {
   Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "Vertex" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
   ZWrite Off
   Cull Off
-  GpuProgramID 52578
+  GpuProgramID 43169
 Program "vp" {
 SubProgram "gles hw_tier00 " {
 "#version 100
