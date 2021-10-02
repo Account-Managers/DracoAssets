@@ -19,6 +19,9 @@ SubShader {
   ZTest Always
   ZWrite Off
   Cull Off
+  Fog {
+   Mode Off
+  }
   GpuProgramID 34126
 Program "vp" {
 SubProgram "gles hw_tier00 " {
@@ -788,6 +791,9 @@ SubShader {
   ZTest Always
   ZWrite Off
   Cull Off
+  Fog {
+   Mode Off
+  }
   GpuProgramID 80360
 Program "vp" {
 SubProgram "gles hw_tier00 " {

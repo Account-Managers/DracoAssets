@@ -10,6 +10,8 @@ SubShader {
  Tags { "RenderType" = "Overlay" }
  Pass {
   Tags { "RenderType" = "Overlay" }
+  Blend One One, One One
+  ColorMask RGB 0
   ZTest Always
   ZWrite Off
   Cull Off

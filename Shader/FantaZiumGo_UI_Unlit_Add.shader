@@ -20,9 +20,19 @@ SubShader {
  Pass {
   Name "Default"
   Tags { "CanUseSpriteAtlas" = "true" "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+  Blend SrcAlpha One, SrcAlpha One
+  ColorMask 0 0
   ZTest Off
   ZWrite Off
   Cull Off
+  Stencil {
+   ReadMask 0
+   WriteMask 0
+   Comp Disabled
+   Pass Keep
+   Fail Keep
+   ZFail Keep
+  }
   GpuProgramID 48551
 Program "vp" {
 SubProgram "gles hw_tier00 " {

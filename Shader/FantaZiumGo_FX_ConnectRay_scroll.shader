@@ -14,6 +14,7 @@ SubShader {
  Pass {
   LOD 100
   Tags { "RenderType" = "Opaque" }
+  Blend One OneMinusSrcAlpha, One OneMinusSrcAlpha
   ZWrite Off
   GpuProgramID 14024
 Program "vp" {

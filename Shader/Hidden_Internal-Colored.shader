@@ -17,6 +17,7 @@ SubShader {
  Tags { "IGNOREPROJECTOR" = "true" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
  Pass {
   Tags { "IGNOREPROJECTOR" = "true" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+  Blend Zero Zero, Zero Zero
   ZTest Off
   ZWrite Off
   Cull Off

@@ -11,6 +11,7 @@ _DstBlend ("DstBlend", Float) = 10
 }
 SubShader {
  Pass {
+  Blend Zero Zero, One OneMinusSrcAlpha
   ZTest Always
   ZWrite Off
   Cull Off
@@ -1481,6 +1482,7 @@ SubProgram "gles3 hw_tier02 " {
 }
 SubShader {
  Pass {
+  Blend Zero Zero, Zero Zero
   ZTest Always
   ZWrite Off
   Cull Off

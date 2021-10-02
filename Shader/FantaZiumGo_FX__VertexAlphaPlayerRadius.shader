@@ -13,6 +13,7 @@ SubShader {
  Tags { "RenderType" = "Transparent" }
  Pass {
   Tags { "RenderType" = "Transparent" }
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
   GpuProgramID 39057
 Program "vp" {
 SubProgram "gles hw_tier00 " {

@@ -9,6 +9,7 @@ _MainTex ("DepthTexture", any) = "" { }
 }
 SubShader {
  Pass {
+  ColorMask 0 0
   ZTest Always
   Cull Off
   GpuProgramID 55646

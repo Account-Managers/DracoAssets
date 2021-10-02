@@ -9,6 +9,7 @@ _MainTex ("Texture", any) = "white" { }
 }
 SubShader {
  Pass {
+  Blend SrcAlpha OneMinusSrcAlpha, One One
   ZTest Always
   ZWrite Off
   Cull Off
@@ -609,6 +610,7 @@ SubProgram "gles3 hw_tier02 " {
 }
 SubShader {
  Pass {
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
   ZTest Always
   ZWrite Off
   Cull Off

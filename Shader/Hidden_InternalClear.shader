@@ -8,6 +8,7 @@ Properties {
 }
 SubShader {
  Pass {
+  ColorMask 0 0
   ZTest Always
   ZWrite Off
   Cull Off
@@ -7240,6 +7241,7 @@ Keywords { "STEREO_MULTIVIEW_ON" }
 }
 }
  Pass {
+  ColorMask 0 0
   ZTest Always
   Cull Off
   GpuProgramID 185454
@@ -14470,9 +14472,16 @@ Keywords { "STEREO_MULTIVIEW_ON" }
 }
 }
  Pass {
+  ColorMask 0 0
   ZTest Always
   ZWrite Off
   Cull Off
+  Stencil {
+   Comp Always
+   Pass Zero
+   Fail Keep
+   ZFail Keep
+  }
   GpuProgramID 272253
 Program "vp" {
 SubProgram "gles hw_tier00 " {
@@ -18089,6 +18098,12 @@ Keywords { "STEREO_MULTIVIEW_ON" }
   ZTest Always
   ZWrite Off
   Cull Off
+  Stencil {
+   Comp Always
+   Pass Zero
+   Fail Keep
+   ZFail Keep
+  }
   GpuProgramID 346237
 Program "vp" {
 SubProgram "gles hw_tier00 " {
@@ -21702,8 +21717,15 @@ Keywords { "STEREO_MULTIVIEW_ON" }
 }
 }
  Pass {
+  ColorMask 0 0
   ZTest Always
   Cull Off
+  Stencil {
+   Comp Always
+   Pass Zero
+   Fail Keep
+   ZFail Keep
+  }
   GpuProgramID 446987
 Program "vp" {
 SubProgram "gles hw_tier00 " {
@@ -25319,6 +25341,12 @@ Keywords { "STEREO_MULTIVIEW_ON" }
  Pass {
   ZTest Always
   Cull Off
+  Stencil {
+   Comp Always
+   Pass Zero
+   Fail Keep
+   ZFail Keep
+  }
   GpuProgramID 517744
 Program "vp" {
 SubProgram "gles hw_tier00 " {

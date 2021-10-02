@@ -17,7 +17,12 @@ SubShader {
  Pass {
   LOD 100
   Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "Vertex" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
+  ColorMask RGB 0
   ZWrite Off
+  Fog {
+   Mode Off
+  }
   GpuProgramID 78755
 Program "vp" {
 SubProgram "gles hw_tier00 " {
@@ -12750,6 +12755,8 @@ Keywords { "FOG_LINEAR" "SPOT" }
  Pass {
   LOD 100
   Tags { "IGNOREPROJECTOR" = "true" "LIGHTMODE" = "VertexLM" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
+  ColorMask RGB 0
   ZWrite Off
   GpuProgramID 36223
 Program "vp" {

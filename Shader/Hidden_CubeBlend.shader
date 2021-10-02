@@ -15,6 +15,9 @@ SubShader {
   Tags { "QUEUE" = "Background" "RenderType" = "Background" }
   ZTest Always
   ZWrite Off
+  Fog {
+   Mode Off
+  }
   GpuProgramID 54436
 Program "vp" {
 SubProgram "gles hw_tier00 " {
@@ -565,6 +568,9 @@ SubShader {
   Tags { "QUEUE" = "Background" "RenderType" = "Background" }
   ZTest Always
   ZWrite Off
+  Fog {
+   Mode Off
+  }
   GpuProgramID 120266
 Program "vp" {
 SubProgram "gles hw_tier00 " {

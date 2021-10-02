@@ -10,6 +10,7 @@ _Color ("Multiplicative color", Color) = (1,1,1,1)
 }
 SubShader {
  Pass {
+  ColorMask 0 0
   ZTest Always
   Cull Off
   GpuProgramID 16826

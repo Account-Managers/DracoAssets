@@ -11,8 +11,12 @@ SubShader {
  Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
  Pass {
   Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
   ZWrite Off
   Cull Off
+  Fog {
+   Mode Off
+  }
   GpuProgramID 10119
 Program "vp" {
 SubProgram "gles hw_tier00 " {

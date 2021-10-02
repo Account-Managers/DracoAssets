@@ -12,6 +12,7 @@ SubShader {
  Tags { "RenderType" = "Transparent" }
  Pass {
   Tags { "RenderType" = "Transparent" }
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
   ZWrite Off
   GpuProgramID 23717
 Program "vp" {

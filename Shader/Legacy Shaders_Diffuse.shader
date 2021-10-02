@@ -13681,6 +13681,7 @@ Keywords { "DIRECTIONAL" "FOG_LINEAR" "LIGHTPROBE_SH" "SHADOWS_SCREEN" }
   Name "FORWARD"
   LOD 200
   Tags { "LIGHTMODE" = "FORWARDADD" "RenderType" = "Opaque" }
+  Blend One One, One One
   ZWrite Off
   GpuProgramID 73537
 Program "vp" {

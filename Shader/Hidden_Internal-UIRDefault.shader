@@ -22,9 +22,21 @@ SubShader {
  Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" "UIE_VertexTexturingIsAvailable" = "1" }
  Pass {
   Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" "UIE_VertexTexturingIsAvailable" = "1" }
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
   ZTest GEqual
   ZWrite Off
   Cull Off
+  Stencil {
+   Ref 255
+   CompFront Disabled
+   PassFront Keep
+   FailFront Keep
+   ZFailFront Keep
+   CompBack Disabled
+   PassBack Keep
+   FailBack Keep
+   ZFailBack Keep
+  }
   GpuProgramID 24877
 Program "vp" {
 SubProgram "gles3 hw_tier00 " {
@@ -1356,9 +1368,21 @@ SubShader {
  Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
  Pass {
   Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
   ZTest GEqual
   ZWrite Off
   Cull Off
+  Stencil {
+   Ref 255
+   CompFront Disabled
+   PassFront Keep
+   FailFront Keep
+   ZFailFront Keep
+   CompBack Disabled
+   PassBack Keep
+   FailBack Keep
+   ZFailBack Keep
+  }
   GpuProgramID 98481
 Program "vp" {
 SubProgram "gles hw_tier00 " {

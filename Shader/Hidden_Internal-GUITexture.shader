@@ -11,6 +11,7 @@ SubShader {
  Tags { "RenderType" = "Overlay" }
  Pass {
   Tags { "RenderType" = "Overlay" }
+  Blend SrcAlpha OneMinusSrcAlpha, One One
   ZTest Always
   ZWrite Off
   Cull Off
@@ -439,6 +440,7 @@ SubShader {
  Tags { "RenderType" = "Overlay" }
  Pass {
   Tags { "RenderType" = "Overlay" }
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
   ZTest Always
   ZWrite Off
   Cull Off

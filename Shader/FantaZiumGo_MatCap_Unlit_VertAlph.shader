@@ -16,7 +16,15 @@ SubShader {
  Pass {
   LOD 100
   Tags { "IGNOREPROJECTOR" = "true" "QUEUE" = "Geometry-1" "RenderType" = "Transparent" }
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
   ZTest Less
+  Stencil {
+   Ref 1
+   Comp Always
+   Pass Replace
+   Fail Keep
+   ZFail Keep
+  }
   GpuProgramID 24001
 Program "vp" {
 SubProgram "gles hw_tier00 " {

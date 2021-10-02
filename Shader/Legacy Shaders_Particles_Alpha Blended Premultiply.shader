@@ -12,6 +12,8 @@ SubShader {
  Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
  Pass {
   Tags { "IGNOREPROJECTOR" = "true" "PreviewType" = "Plane" "QUEUE" = "Transparent" "RenderType" = "Transparent" }
+  Blend One OneMinusSrcAlpha, One OneMinusSrcAlpha
+  ColorMask RGB 0
   ZWrite Off
   Cull Off
   GpuProgramID 3345

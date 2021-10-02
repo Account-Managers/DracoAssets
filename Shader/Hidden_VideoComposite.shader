@@ -12,6 +12,7 @@ SubShader {
  Pass {
   Name "Default"
   Tags { "QUEUE" = "Transparent" }
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
   Cull Off
   GpuProgramID 10358
 Program "vp" {

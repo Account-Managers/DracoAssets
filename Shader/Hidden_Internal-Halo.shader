@@ -10,6 +10,8 @@ SubShader {
  Tags { "RenderType" = "Overlay" }
  Pass {
   Tags { "RenderType" = "Overlay" }
+  Blend OneMinusDstColor One, OneMinusDstColor One
+  ColorMask RGB 0
   ZWrite Off
   Cull Off
   GpuProgramID 55344

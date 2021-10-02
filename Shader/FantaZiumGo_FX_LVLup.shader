@@ -13,6 +13,7 @@ SubShader {
  Tags { "RenderType" = "Transparent" }
  Pass {
   Tags { "RenderType" = "Transparent" }
+  Blend SrcAlpha One, SrcAlpha One
   ZTest Always
   ZWrite Off
   Cull Off

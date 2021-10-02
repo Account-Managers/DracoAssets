@@ -35,6 +35,7 @@ SubShader {
  Tags { "ForceSupported" = "true" }
  Pass {
   Tags { "ForceSupported" = "true" }
+  Blend One OneMinusSrcAlpha, One OneMinusSrcAlpha
   ZTest Always
   ZWrite Off
   Cull Off

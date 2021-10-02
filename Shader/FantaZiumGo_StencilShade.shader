@@ -11,8 +11,16 @@ SubShader {
  Tags { "QUEUE" = "Transparent-1" "RenderType" = "Transparent" }
  Pass {
   Tags { "QUEUE" = "Transparent-1" "RenderType" = "Transparent" }
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
   ZTest Always
   ZWrite Off
+  Stencil {
+   Ref 1
+   Comp NotEqual
+   Pass Keep
+   Fail Keep
+   ZFail Keep
+  }
   GpuProgramID 44256
 Program "vp" {
 SubProgram "gles hw_tier00 " {
@@ -321,8 +329,16 @@ SubProgram "gles3 hw_tier02 " {
 }
  Pass {
   Tags { "QUEUE" = "Transparent-1" "RenderType" = "Transparent" }
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
   ZTest Always
   ZWrite Off
+  Stencil {
+   Ref 1
+   Comp Equal
+   Pass Keep
+   Fail Keep
+   ZFail Keep
+  }
   GpuProgramID 93464
 Program "vp" {
 SubProgram "gles hw_tier00 " {

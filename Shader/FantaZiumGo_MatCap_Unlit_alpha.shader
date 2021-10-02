@@ -14,6 +14,7 @@ SubShader {
  Tags { "IGNOREPROJECTOR" = "true" "QUEUE" = "Transparent" "RenderType" = "Opaque" }
  Pass {
   Tags { "IGNOREPROJECTOR" = "true" "QUEUE" = "Transparent" "RenderType" = "Opaque" }
+  Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
   GpuProgramID 37980
 Program "vp" {
 SubProgram "gles hw_tier00 " {
